@@ -1,0 +1,154 @@
+<Terminal 띄우는 단축키>
+Ctrl + Shift + ` 
+
+<명령프롬프트(CMD) 띄우는 단축키>
+1. 실행 프로그램 찾기
+윈도키 + R
+2. 검색 창에 CMD 검색
+3. ipconfig
+
+<Vs 터미널에 cmd 띄우기>
+1. +옆에 있는 아래방향 화살표 클릭
+2. command prompt
+
+<af + 프리미어>
+캡컷
+
+react를 사용하는 이유
+1. 화면에서 애니메이션을 보이듯이 렌더링을 하는데 html 같은 경우는 잠깐에 로딩
+하듯이 잠깐의 로딩시간이 생기게 되면 사용자가 그 사이트의 사용에 피돈함을 느낌
+
+2. 사용하는 부분에만 react를 사용해서 프로탠드를 이용해서 댓글창 같은 그부분만
+로딩없이 보여주게 한다.
+
+<cmd 파일 타입스크립트 생성>
+npx create-react-app bbs --template typescript (bbs라는 파일에 타입스크립트 생성)
+
+<벡터의 특징>
+벡터는 화면을 크게하나 작게 하나 깨지지않고 용량이 크지 않다.
+EX) 아이콘몬스터, 어썸폰트
+
+프레임 워크
+건물을 짓는 상황에서 용접을 하는 사람들이 너무 여러명이라 기술이 다를 때 같은 
+방법으로 지을 수 있게 하는것
+
+부트스트랩은 도서관같은 개념 부트스트랩은 기본이 중앙정렬
+className="text-secondary text-bold"
+텍스트 색은 회색 텍스트를 두껍게
+
+text-danger 빨강
+text-waring 노란색
+text-success 초록색
+text-secondary 회색
+text-primary 파란색
+justify-content-end 오른쪽 정렬
+justify-content-start 왼쪽 정렬
+
+className="btn-group" 버튼 모양이 radious를 넣지 않고 예쁘게 버튼 모양이 잡힘
+
+(표 안에 직관적으로 className으로 입력하여 텍스트 스타일을 적용)
+사이트 특징 상 버튼이 맨 밑에 위치하기
+
+<부트스트랩 설치하는 방법>
+cd (파일명)
+npm install react-bootstrap
+
+모듈의 결합 또는 낮추고 체계화를 한다.
+
+Vs에 Material Icon Theme 설치(설치 후 설정이 안되면 Set File Icon Theme클릭)
+Vs에서 Ctrl + M키를 누른 후에는 Tab키가 클릭이 안됨으로 해제(다시 Ctrl + M)
+
+react에서 이미지를 넣을 때는 Public에 이미지 폴더를 만드는 것이 좋다.
+react-app-env.d.ts랑 reportWebVitals.ts는 절대 삭제 X
+App.tsx에서 return();안에 비워두지 말고 <></>넣어두기
+만드는 파일이 클라이언트 server파일이 서버
+react에서 틀린 부분이 없는데 오류가 뜰 경우에는 node.js를 사용한다.
+
+<server에 node.js연결하는 코드>
+cd (서버파일 이름)
+npm init -y
+
+<Mysql을 서버를 다운하거나 변동할 때 원활하게 해주는 환경설정>
+npm install express body-parser mysql
+
+<변동 사항이 생겼을 때 다시 로딩할 필요없이 바로 보여주는 설정>
+npm install nodemon
+
+<server가 잘 돌아가는지 확인>
+cd (파일명)
+npm run dev
+(잘 작동될 경우 localhost:서버번호 해서 들어간후 사이트를 사이트 주소를
+드래그 후 엔터를 누르면 요청됨이라구 나온다.)
+
+<server>
+서버를 구동후에는 한번 싹 닫아줘야지 다시 시작할 수있다.
+이 때 단축키는 Ctrl + C 로 닫아줬다가 다시 시작
+
+<Mysql 다운 사이트>
+https://dev.mysql.com/downloads/installer/
+353.7M 부분을 다운로드 클릭
+위에 로그인 하라는 문구를 무시하고 no,thank부분 클릭하여 들어가기
+다운 후 Full 클릭 next -> Execute -> next -> next -> port:3306 (가장 좋음)
+-> next ... -> password 만든 비밀번호 넣기(password꼭 기억하기)
+
+<Mysql 표만들기>
+1. 왼쪽에 Schemas 메뉴를 클릭
+2. 입력 후 번개모양 메뉴 클릭()
+create database bbs;
+use bbs;
+3. 입력한 내용 지우기(같은 내용을 입력 시 오류)
+4. 입력후 번개 모양메뉴 클릭
+create table requested(
+rowno int 
+);
+select * from requested;
+5. 입력한 내용 지우기
+6.
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '1234';
+(왼 쪽 메뉴에 있는 Administration을 선택 후 users and Privileges에 들어가면
+user에 아까 입력한 root라는 유저가 들어가있음)
+7.
+select * from requested;
+
+<Vue>
+1. 파일을 Vs에서 열기
+2. Command prompt로 열기
+3. npm init vue@latest
+4. Y
+5. test
+6. 엔터
+7. cd test
+8. npm run dev
+9. Local 주소 ctrl + 클릭
+
+<python>
+1. 파이썬은 띄어쓰기나 들여쓰기를 꼭 지켜줘야한다.
+2. Vs에서 python을 Extension에 검색해서 설치
+3. 구글에다가 python을 검색 후 다운로드
+ - install now(체크바를 다 체크 후)
+
+4. 파이썬 버전 확인
+pip --version
+5. 파이썬 https://www.jetbrains.com/ko-kr/pycharm/download/?section=windows
+PyCharm Community Edition 이거 다운로드
+6. 다운로드 한 프로그램을 킨 후 언어 설정을 English 지역을 Asia로 설정 후 계속
+설정을 클릭한다.
+셋팅하는 키 : Ctrl + ,
+컨트롤 키로 폰트 사이즈 조정하는 설정: Editor -> General -> Check font size with-체크
+왼쪽 메뉴 접는 법:Ctrl + shift + E
+
+7. pip --version 후 pip install matplotlib 
+8. 새로운 파일 생성 후에 터미널을 클릭후 pip install numpy
+
+
+<프리미엄>
+-pixels검색
+- Ctrl + or -
+- Home키 (영상 맨 앞부분) End키 (영상 맨마지막 부분)
+
+
+js java script object
+jsx 
+

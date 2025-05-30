@@ -1,0 +1,17 @@
+
+
+
+npm creat vuetify@latest
+
+
+
+vue깔고 뷰티파이 깔기
+1)뷰깔기
+npm init vue@latest
+cd component
+npm install
+npm run dev
+2)뷰티파이설치
+npm install vuetify@next
+npm i-D vuetify vite-plugin-vuetify
+npm i @mdi/font

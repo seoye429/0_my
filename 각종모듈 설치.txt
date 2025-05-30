@@ -1,0 +1,71 @@
+2025/05/14 
+>>>>리액트<<<<<
+리액트 설치
+
+폴더 선택하고
+npx create-react-app client --template typescript
+
+node 모듈 설치
+npm install express body-parser mysql
+
+노드문 설치
+npm install nodemon
+노드문이랑 수정코드를 재부팅하지 않고 반영할수 있게 만들어줌
+
+
+npm i cors
+
+
+부트스트랩 설치
+npm install bootstrap
+
+axios설치
+npm install axios
+
+react-bootstarp 설치
+npm install react-bootstrap
+
+링크링크 연결을 리엑트와 뷰에서 라우팅이라고 함
+
+
+>>>>>sass설치<<<<<<
+live sass compiler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+파싱?
+라우팅?

@@ -1,0 +1,71 @@
+데이터 입력 순서:
+
+
+python manage.py migate
+
+python manage.py makemigrations members
+
+python manage.py migrate
+
+python manage.py sqlmigrate members 0001
+
+python manage.py shell
+
+from members.models import Member
+
+Member.objects.all()
+
+member = Member(firstname='Seoye', lastname='lee')
+member.save()
+
+
+Member.objects.all().values()
+
+한방에 다 쓰기
+member1=Member(firstname='jun',lastname='lee')
+member2=Member(firstname='aaa',lastname='lee')
+member3=Member(firstname='bbb',lastname='lee')
+member4=Member(firstname='ccc',lastname='lee')
+member5=Member(firstname='ddd',lastname='lee')
+members_list = [member1, member2, member3, member4, member5]
+for x in members_list:
+    x.save()
+
+확인용
+Member.objects.all().values()
+
+빠져나갈떄는
+exit()
+
+
+python manage.py makemigrations members
+python manage.py migate
+
+
+
+Member.objects.bulk_create([
+    Member(firstname='seoye', lastname='Lee'),
+    Member(firstname='jun', lastname='Lee'),
+    Member(firstname='춘봉', lastname='AI'),
+    Member(firstname='민수', lastname='Park'),
+    Member(firstname='지후', lastname='Choi'),
+    Member(firstname='하늘', lastname='Jung'),
+    Member(firstname='빛나', lastname='Shin'),
+    Member(firstname='도윤', lastname='Kang'),
+    Member(firstname='지안', lastname='Yoon'),
+    Member(firstname='가람', lastname='Han'),
+    Member(firstname='수아', lastname='Baek'),
+    Member(firstname='하람', lastname='Song'),
+    Member(firstname='예린', lastname='Nam'),
+    Member(firstname='태윤', lastname='Seo'),
+    Member(firstname='다온', lastname='Woo'),
+    Member(firstname='라온', lastname='Hwang'),
+    Member(firstname='채은', lastname='Jang'),
+    Member(firstname='하진', lastname='Lim'),
+    Member(firstname='서준', lastname='Kwon'),
+    Member(firstname='유진', lastname='Oh'),
+    Member(firstname='지유', lastname='Kim'),
+    Member(firstname='시우', lastname='Ryu'),
+    Member(firstname='현우', lastname='Moon'),
+    Member(firstname='준호', lastname='Ahn'),
+])

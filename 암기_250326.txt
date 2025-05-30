@@ -1,0 +1,295 @@
+background:transparent;  백그라운드 투명
+
+effects&preasets --> cc bubbles(물방울 모양 움직임)
+effects&preasets--> wave wrap(물결모양 만들기)
+
+effects&presets에서
+black&white
+laver
+invert
+-->블랙화이트로 바꾸꼬 더 까맣게 만들고 마지막 인버트로 반전
+
+
+<link rel="shortcut icon" href="./파비콘/images/favicon_스타벅스.ico"
+-->파비콘 링크 문구/title   head사이
+
+ hover 크기 조절문구 
+     transform:scale(1);
+        transition:all 2s;
+    }
+.icon li i:hover{
+    opacity:1;
+    transform:scale(2);
+
+
+
+어썸폰트
+<title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+.icon li i{
+        font-size:100px;
+        color:rgb(223, 21, 142);
+        opacity:0.5;
+        transform:scale(1);
+        transition:all 2s;
+    }
+.icon li i:hover{
+    opacity:1;
+    transform:scale(2);
+}
+li{
+    float:left;
+    margin-right:100px;
+    margin-top:100px;
+    list-style: none;
+}
+
+
+
+</style>
+
+</head>
+<body>
+    <ul class="icon">
+        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+
+
+ padding-top:30px;
+    box-sizing: border-box;
+
+background-size: contain;
+
+effects&presets
+fade up words(텍스트가 순서대로 천천히 나타나기)
+drop shadow (위에서 아래로 떨어지기)
+typewriter(텍스트가 왼쪽에서 하나씩 나오기)
+
+
+font-weight:bold;  글씨 굵게
+
+PRO-컴포지션-새로운 컴포지션을 만들다
+
+effects&presets
+motion tile: 컴포지션이 좌우로 복사된다
+
+레이어 여려개를 다른 컴포지션으로 묶어서 열때-
+레이어 선택후 pro-compose 클릭-open new composition클릭(새 컴포지션으로 만들기)클릭하지 파일로 통합
+
+
+thicc stroke: 다운받아서 깔아야함/stroke의 여러가지 기능(그라데이션)
+glow:컬러를 강렬하게 만듬
+cc radial fast blur: 그라데이션(그림자 등)
+
+img src="images/m10.png"
+a href
+
+effects
+venetian blinds-찍찍 글에 선이 생김
+directional blur
+glitch
+
+에펙
+도형은 직접 마스크 불가:레이어 마우스 오른쪽 클릭-마스크-뉴마스크
+tint(effect) 컬러 변경
+
+scale에서 
+loopOut("pingpong")   하트 핑퐁(미리 원하는 크기 두개를 만들어놓고 사용)
+
+
+effects에서
+Slider Control->text->source txet에서 링크를 Slider Control의 slider에 연결>아래 입력 Math.round(effect("Slider Control")("Slider"))그리고 키포인트와 최대숫자 입력
+
+newton모션->먼저 쉐어로 나누기->뉴톤클릭 사영
+
+effects
+corner pin-영상 삽입(프로컴포지션 만들어서 영상 삽입)
+
+effects
+cc vignette-바탕이 바뀜
+
+
+transform:skewX(45deg);
+
+transition 속성은 네가지 속성
+transition-property 속성
+transition-duration 지속시간
+transition-timing-function 가감속
+-ease:느리게 시작해서 빨라지고 빨라졌다가 다시 느려짐
+-linear: 일정하게
+-ease in: 점점 빨라짐
+-ease out: 점점 느려짐
+-ease-in-out : 처음과 끝만 느려짐 
+transition-delay  지연시간 
+
+transform에서 연결할때 ,을 붙히면  실행이 안됨
+
+transform-origin: 0 50%;   중심점 위치 바꾸기
+
+a에 style할떄는 반드시 display:block; 공간주기
+
+!important  뭐든 우선 실행하기
+
+z-index는 포지션이랑 같이 사용해야 적용
+
+cc star burst:반짝이 나오기
+
+bx slider
+      auto:true,
+            pause:2000,   자동회전과 초시간
+
+
+position:fixed;  위치 고정
+
+
+픽사베이(https://pixabay.com/ko/) 사이트에서 음악, 음향효과 찾을 수 있습니다~! 저작권 없어서 마음껏 사용하셔도 돼요
+
+
+트렌지션 플로그인 주소:
+https://www.w3schools.com/cssref/playit.php?filename=playcss_filter&preval=blur(5px)
+
+prefixfree cdn 구글 검색 3번째꺼
+https://cdnjs.com/libraries/font-awesome  어썸폰트 cdn코드 다운받는곳
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>  프리픽cdn
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">  어썸폰트
+
+
+폰트 단위 변환 사이트
+https://sitero.co.kr/fontsize
+https://pxtoem.com.au/
+
+word-spacing:50px;   단어와 단어 사이 간격
+letter-spacing: -0.1px;   글자 사이의 간격
+
+
+
+
+웹사이트 벤치마킹 주소:
+http://www.gdweb.co.kr
+http://www.dbcut.com
+
+
+
+html   아이콘 복사 사이트
+https://kr.piliapp.com/symbol/menu/
+
+
+폰트 변경 사이트
+https://sitero.co.kr/fontsize
+
+
+text-transform:uppercase;   글꼴 굵게
+
+
+
+https://www.thinkcontest.com/thinkgood/user/contest/index.do#PxyyoRLHIcgvNg6HiHNz_mp_cuclMrohRDGEjn6hvDsggetrTQxNWBBQR1mPnaRxjI93xVlR_kFjCl9g5hFBO1N6UGMkDhLA2ecFAf6UhFU
+
+
+
+
+스톤모션??? +  모션그래픽 =영상
+
+
+뷰티파이는 부트스트랩을 살짝 변화시컨것
+----------------------------------------------------------------------------------------------------------
+리액트에서 부트스트랩 사용시 설치 문구:
+npm install react-bootstrap bootstrap
+-----------------------------------------------------------------------------------------------------
+node모듈 재설치:
+npm install
+----------------------------------------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------------------------------------------
+MySQL  폴더 삭제 방법
+마우스 오른쪽 클릭:Drop Schema 클릭->drop now클릭
+
+
+MySQL 폴더 만들기
+create database bbs;   번개 킬릭
+
+BBS 만드는 방법:
+use bbs;
+create table BOARD( /*테이블명이 보드인걸 만드는데 세부 항목이 id,title, content*/
+BOARD_ID int not null auto_increment primary key,
+BOARD_TITLE varchar(100),
+BOARD_CONTENT varchar(500),
+REGISTER_ID varchar(50),
+REGISTER_DATE DATETIME default now(),
+UPDATER_ID varchar(50),
+UPDATER_DATE DATETIME default now()
+);
+번개클릭
+
+insert into BOARD(BOARD_TITLE, BOARD_CONTENT, REGISTER_ID) values ('아 또 월요일이네','차라리 금요일이라면','황영일');
+select * from board;
+번개클릭
+
+모든 user한테 권한 설정
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '1234';
+
+----------------------------------------------------------------------------------------------
+깃 터미널 설치:bash에서
+git config --global user.name "seoye"
+git config --global user.mail "seoyei77@gmail.com"
+
+------------------------------------------------------------------------------------------
+
+mysql 데이터 보기
+use bbs;
+select*from board;
+
+------------------------------------------------------------------------------------------------------------
+포토폴리오
+?????????????????????????????????????????????????????????????????????
+일러스트 이미지 만들기(포토폴리오에 사용)
+닷홈: 가입(도매인 구입)
+모션그래픽-->무료인 블랜더 필수
+
+리엑트/ 뷰/web /동영상(스타모션,모션그래픽,타이포그래픽,에팩,프리미어)/
+?????????????????????????????????????????????????????
+-----------------------------------------------------------------------------------
+
+
+
+
+
+웹:
+html
+vue
+react
+
+
+영상:
+모션그래픽
+
+
+
+
+벤치마킹 사이트:
+https://www.webjangi.com/
+https://www.dbcut.com/
+
+
+
+
+팀별 웹디자인 홍보영상 제작 => 영상이 들어간 퍼블리싱
+(react 1, vue vuetify 1, 일반 html)
+
+AI 제작 스크립트 기반 영상 제작 => 영상 프로젝트 6초 or 30초
+AI 생성 이미지 기반 영상 제작 => 일러스트적인 모션그래픽 
+텍스트로 만든 AI 영상 제작 => 모션 타이포그래픽  
+
+
+
+
+
+
+
+
+
